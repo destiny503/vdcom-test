@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/vdcom-test/static/css/main.8b1e8489.css",
-    "main.js": "/vdcom-test/static/js/main.11197062.js",
+    "main.js": "/vdcom-test/static/js/main.063d8d28.js",
     "index.html": "/vdcom-test/index.html",
     "static/media/show-password-button.svg": "/vdcom-test/static/media/show-password-button.f9dd466b1ce447aab0fa45c8270bb04b.svg",
     "main.8b1e8489.css.map": "/vdcom-test/static/css/main.8b1e8489.css.map",
-    "main.11197062.js.map": "/vdcom-test/static/js/main.11197062.js.map"
+    "main.063d8d28.js.map": "/vdcom-test/static/js/main.063d8d28.js.map"
   },
   "entrypoints": [
     "static/css/main.8b1e8489.css",
-    "static/js/main.11197062.js"
+    "static/js/main.063d8d28.js"
   ]
 }
