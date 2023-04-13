@@ -1,25 +1,21 @@
-import logo from './logo.svg';
-import './App.css';
+import { Route, Routes } from 'react-router-dom'
+import { CrmPage } from './pages/CrmPage/CrmPage'
+import { LoginPage } from './pages/LoginPage/LoginPage'
+
+import './normalize.css'
+import './App.scss'
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    // на '/' должен быть CrmPage, на 'login' должен быть редирект, если isAuth false
+    <div className='App'>
+      <Routes>
+        <Route path='/' element={<LoginPage />} />
+        <Route path='crm' element={<CrmPage />} />
+        <Route path='login' element={<LoginPage />} />
+      </Routes>
     </div>
-  );
+  )
 }
 
-export default App;
+export default App
