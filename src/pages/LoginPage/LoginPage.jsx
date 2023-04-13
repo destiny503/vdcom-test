@@ -2,7 +2,7 @@ import React from 'react'
 import { Link } from 'react-router-dom'
 import { Logo } from '../../components/Logo'
 import { Input } from '../../components/Input'
-import { Button } from '../../components/Button/Button'
+import { Button } from '../../components/Button'
 
 import s from './LoginPage.module.scss'
 

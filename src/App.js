@@ -7,7 +7,7 @@ import './App.scss'
 
 function App() {
   return (
-    // По умолчанию должен быть CrmPage. На 'login' должен быть редирект, если isAuth = false.
+    // На 'login' должен быть редирект, если isAuth = false.
     <div className='App'>
       <Routes>
         <Route path='' element={<LoginPage />} />

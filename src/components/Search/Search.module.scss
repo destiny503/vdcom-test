@@ -1,0 +1,29 @@
+.label {
+  margin-left: 250px;
+  position: relative;
+}
+
+.input {
+  padding-left: 60px;
+  width: 522px;
+  height: 50px;
+  font-family: 'Roboto Condensed';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 23px;
+  background: #f2f2f2;
+  border: 2px solid #f2f2f2;
+  border-radius: 6px;
+  color: #000000;
+  box-sizing: border-box;
+}
+
+.icon {
+  width: 24px;
+  height: 24px;
+  position: absolute;
+  top: 14px;
+  left: 20px;
+  cursor: pointer;
+}

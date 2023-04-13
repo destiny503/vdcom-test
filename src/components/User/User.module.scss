@@ -1,0 +1,39 @@
+.user {
+  width: 245px;
+  height: 70px;
+  display: flex;
+  margin-right: 30px;
+  background-color: #ffffff;
+  cursor: pointer;
+}
+
+.img {
+  height: 100%;
+}
+
+.info {
+  margin-left: 15px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.name {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 33px;
+  color: #000000;
+  opacity: 0.8;
+}
+
+.position {
+  font-family: 'Titillium Web';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 20px;
+  color: #000000;
+  opacity: 0.7;
+}
