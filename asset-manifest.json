@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/vdcom-test/static/css/main.f071eb72.css",
-    "main.js": "/vdcom-test/static/js/main.378cad1d.js",
+    "main.css": "/vdcom-test/static/css/main.f15a3e57.css",
+    "main.js": "/vdcom-test/static/js/main.0e63284d.js",
     "static/media/user-photo.jpg": "/vdcom-test/static/media/user-photo.e38f80414624e7f1aaed.jpg",
     "static/media/delete-button.svg": "/vdcom-test/static/media/delete-button.9c085a4d992d5c942c2b1893e91141d2.svg",
     "static/media/edit-button.svg": "/vdcom-test/static/media/edit-button.057eb94155fc6a78ae845cdeac456dec.svg",
@@ -12,11 +12,11 @@
     "static/media/calendar-button.svg": "/vdcom-test/static/media/calendar-button.9418248c1cda792714c118c09f0e357d.svg",
     "static/media/show-password-button.svg": "/vdcom-test/static/media/show-password-button.f9dd466b1ce447aab0fa45c8270bb04b.svg",
     "static/media/search-icon.svg": "/vdcom-test/static/media/search-icon.ff44542753e182221e175e7a23944923.svg",
-    "main.f071eb72.css.map": "/vdcom-test/static/css/main.f071eb72.css.map",
-    "main.378cad1d.js.map": "/vdcom-test/static/js/main.378cad1d.js.map"
+    "main.f15a3e57.css.map": "/vdcom-test/static/css/main.f15a3e57.css.map",
+    "main.0e63284d.js.map": "/vdcom-test/static/js/main.0e63284d.js.map"
   },
   "entrypoints": [
-    "static/css/main.f071eb72.css",
-    "static/js/main.378cad1d.js"
+    "static/css/main.f15a3e57.css",
+    "static/js/main.0e63284d.js"
   ]
 }
