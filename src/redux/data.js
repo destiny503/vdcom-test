@@ -1,6 +1,6 @@
 export const data = [
   {
-    id: 1,
+    id: '1',
     name: 'Qntity name',
     trn: '654321',
     year: '23/06/22',
@@ -11,7 +11,7 @@ export const data = [
     companyAddress: '10 Name Stree...',
   },
   {
-    id: 2,
+    id: '2',
     name: 'Entity name',
     trn: '654321',
     year: '23/06/22',
@@ -22,7 +22,7 @@ export const data = [
     companyAddress: '10 Name Stree...',
   },
   {
-    id: 3,
+    id: '3',
     name: 'Entity name',
     trn: '654321',
     year: '23/06/22',
@@ -33,7 +33,7 @@ export const data = [
     companyAddress: '10 Name Stree...',
   },
   {
-    id: 4,
+    id: '4',
     name: 'Entity name',
     trn: '654321',
     year: '23/06/22',
@@ -44,7 +44,7 @@ export const data = [
     companyAddress: '10 Name Stree...',
   },
   {
-    id: 5,
+    id: '5',
     name: 'Entity name',
     trn: '654321',
     year: '23/06/22',
@@ -55,7 +55,7 @@ export const data = [
     companyAddress: '10 Name Stree...',
   },
   {
-    id: 6,
+    id: '6',
     name: 'Entity name',
     trn: '654321',
     year: '23/06/22',
@@ -66,7 +66,7 @@ export const data = [
     companyAddress: '10 Name Stree...',
   },
   {
-    id: 7,
+    id: '7',
     name: 'Entity name',
     trn: '654321',
     year: '23/06/22',
@@ -77,7 +77,7 @@ export const data = [
     companyAddress: '10 Name Stree...',
   },
   {
-    id: 8,
+    id: '8',
     name: 'Entity name',
     trn: '654321',
     year: '23/06/22',
@@ -88,7 +88,7 @@ export const data = [
     companyAddress: '10 Name Stree...',
   },
   {
-    id: 9,
+    id: '9',
     name: 'Entity name',
     trn: '654321',
     year: '23/06/22',
@@ -99,7 +99,7 @@ export const data = [
     companyAddress: '10 Name Stree...',
   },
   {
-    id: 10,
+    id: '10',
     name: 'Entity name',
     trn: '654321',
     year: '23/06/22',
@@ -110,7 +110,7 @@ export const data = [
     companyAddress: '10 Name Stree...',
   },
   {
-    id: 11,
+    id: '11',
     name: 'Entity name',
     trn: '654321',
     year: '23/06/22',
@@ -121,7 +121,7 @@ export const data = [
     companyAddress: '10 Name Stree...',
   },
   {
-    id: 12,
+    id: '12',
     name: 'Entity name',
     trn: '654321',
     year: '23/06/22',

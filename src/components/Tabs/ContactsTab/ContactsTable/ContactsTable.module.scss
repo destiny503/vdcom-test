@@ -1,0 +1,23 @@
+.box {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  gap: 1rem;
+  //   background-color: aqua;
+  img {
+    cursor: pointer;
+  }
+}
+
+.boxItem {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+.boxItemD {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  margin-top: 1px;
+}

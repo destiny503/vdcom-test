@@ -5,42 +5,22 @@ import ButtonYellow from '../../ButtonYellow/ButtonYellow'
 import s from './ContactsTab.module.scss'
 
 export const ContactsTab = () => {
-  const [isOpen, setIsOpen] = useState(false)
-
-  const addNewContact = () => {
-    setIsOpen(true)
-  }
-
-  const closePopup = () => {
-    setIsOpen(false)
-  }
+  const [createModalOpen, setCreateModalOpen] = useState(false)
 
   return (
     <div className={s.container}>
       <div className={s.header}>
         <div className={s.title}>Total Contacts</div>
-        {isOpen && <div className={s.newContact}></div>}
-        <div className={s.buttons}>
-          <ButtonYellow text='Add +' onClick={addNewContact} />
-          <ButtonYellow text='Delete' onClick={addNewContact} />
+        <div className={s.newContact}>
+          <ButtonYellow
+            text='Add +'
+            onClick={() => setCreateModalOpen(true)}
+          />
         </div>
       </div>
       <div className={s.table}>
-        <ContactTable />
+        <ContactTable createModalOpen={createModalOpen} setCreateModalOpen={setCreateModalOpen}/>
       </div>
-      {isOpen && (
-        <div className={s.popup}>
-          <div className={s.popupContent}>
-            <div className={s.closeButton} onClick={closePopup}>
-              &times;
-            </div>
-            <div className={s.popupBody}>
-              <h3>Popup Content</h3>
-              <p>This is a popup content.</p>
-            </div>
-          </div>
-        </div>
-      )}
     </div>
   )
 }

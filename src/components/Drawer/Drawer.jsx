@@ -1,5 +1,7 @@
-import React, { useState } from 'react'
-import { Link } from 'react-router-dom'
+import React from 'react'
+import { useDispatch } from 'react-redux'
+import { useNavigate } from 'react-router-dom'
+import { loginReducer } from '../../redux/slices/authSlice'
 import { Logo } from '../Logo'
 import { DrawerButton } from '../Drawer/DrawerButton'
 import { DrawerLogOut } from '../Drawer/DrawerLogOut/DrawerLogOut'
@@ -11,6 +13,16 @@ import icon3 from '../../assets/report-button.svg'
 import s from './Drawer.module.scss'
 
 export const Drawer = ({ onTabClick, activeTab }) => {
+  const dispatch = useDispatch()
+  const navigate = useNavigate()
+
+  const auth = () => {
+    const user = {
+      auth: false,
+    }
+    dispatch(loginReducer(user))
+    navigate('../')
+  }
 
   return (
     <div className={s.container}>
@@ -38,12 +50,9 @@ export const Drawer = ({ onTabClick, activeTab }) => {
           isActive={activeTab === 'tab3' ? true : false}
         />
       </div>
-      <Link
-        to='/login'
-        style={{ textDecoration: 'none', marginTop: 'auto' }}
-      >
-        <DrawerLogOut />
-      </Link>
+      <div className={s.logout}>
+        <DrawerLogOut onClick={auth} />
+      </div>
     </div>
   )
 }

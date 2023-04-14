@@ -14,6 +14,12 @@ export const contactsSlice = createSlice({
     add(state, action) {
       state.contacts.push(action.payload)
     },
+    edit(state, action) {
+      const index = state.contacts.findIndex(
+        contact => contact.id === action.payload.id
+      )
+      state.contacts[index] = action.payload
+    },
     delete(state, action) {
       state.contacts = state.contacts.filter(
         contact => contact.id !== action.payload
@@ -21,5 +27,12 @@ export const contactsSlice = createSlice({
     },
   },
 })
+
+export const {
+  init,
+  add,
+  edit,
+  ['delete']: deleteContact,
+} = contactsSlice.actions
 
 export default contactsSlice.reducer

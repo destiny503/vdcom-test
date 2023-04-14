@@ -2,9 +2,15 @@ import React from 'react'
 
 import s from './Button.module.scss'
 
-export const Button = () => {
+export const Button = ({ onClick }) => {
+  const handleClick = () => {
+    if (onClick) {
+      onClick()
+    }
+  }
+
   return (
-    <div className={s.button}>
+    <div className={s.button} onClick={handleClick}>
       <p>Sign In</p>
     </div>
   )
