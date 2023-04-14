@@ -1,8 +1,10 @@
 {
   "files": {
-    "main.css": "/vdcom-test/static/css/main.53de50a2.css",
-    "main.js": "/vdcom-test/static/js/main.a352dd89.js",
+    "main.css": "/vdcom-test/static/css/main.f071eb72.css",
+    "main.js": "/vdcom-test/static/js/main.378cad1d.js",
     "static/media/user-photo.jpg": "/vdcom-test/static/media/user-photo.e38f80414624e7f1aaed.jpg",
+    "static/media/delete-button.svg": "/vdcom-test/static/media/delete-button.9c085a4d992d5c942c2b1893e91141d2.svg",
+    "static/media/edit-button.svg": "/vdcom-test/static/media/edit-button.057eb94155fc6a78ae845cdeac456dec.svg",
     "static/media/contacts-button.svg": "/vdcom-test/static/media/contacts-button.1614639ae6a21327f1dc09bbec25585c.svg",
     "index.html": "/vdcom-test/index.html",
     "static/media/report-button.svg": "/vdcom-test/static/media/report-button.cc647732629a0b272232e6f6633068c0.svg",
@@ -10,11 +12,11 @@
     "static/media/calendar-button.svg": "/vdcom-test/static/media/calendar-button.9418248c1cda792714c118c09f0e357d.svg",
     "static/media/show-password-button.svg": "/vdcom-test/static/media/show-password-button.f9dd466b1ce447aab0fa45c8270bb04b.svg",
     "static/media/search-icon.svg": "/vdcom-test/static/media/search-icon.ff44542753e182221e175e7a23944923.svg",
-    "main.53de50a2.css.map": "/vdcom-test/static/css/main.53de50a2.css.map",
-    "main.a352dd89.js.map": "/vdcom-test/static/js/main.a352dd89.js.map"
+    "main.f071eb72.css.map": "/vdcom-test/static/css/main.f071eb72.css.map",
+    "main.378cad1d.js.map": "/vdcom-test/static/js/main.378cad1d.js.map"
   },
   "entrypoints": [
-    "static/css/main.53de50a2.css",
-    "static/js/main.a352dd89.js"
+    "static/css/main.f071eb72.css",
+    "static/js/main.378cad1d.js"
   ]
 }
