@@ -8,11 +8,11 @@
   background-color: #FFFFFF;
   z-index: 1;
   position: absolute;
-  transform: translateX(-92%);
-  transition: transform 0.3s ease-out;
-  &:hover {
-    transform: translateX(0%);
-  }
+  // transform: translateX(-92%);
+  // transition: transform 0.3s ease-out;
+  // &:hover {
+  //   transform: translateX(0%);
+  // }
 }
 
 .logo {

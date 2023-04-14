@@ -2,12 +2,12 @@ import React from 'react'
 
 import s from './ButtonYellow.module.scss'
 
-const ButtonYellow = () => {
+const ButtonYellow = ({ text }) => {
   return (
     <div className={s.button}>
-      <p>Add +</p>
+      <p>{text}</p>
     </div>
   )
 }
 
-export default ButtonYellow;
+export default ButtonYellow

@@ -7,7 +7,8 @@ import s from './Header.module.scss'
 export const Header = () => {
   return (
     <div className={s.container}>
-      <Search />
+      <div></div>
+      {/* <Search /> */}
       <User />
     </div>
   )

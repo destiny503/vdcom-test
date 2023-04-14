@@ -6,7 +6,11 @@ import s from './Search.module.scss'
 export const Search = () => {
   return (
     <label className={s.label}>
-      <input className={s.input} type='text' placeholder='Search by Name...' />
+      <input
+        className={s.input}
+        type='text'
+        placeholder='Search by Name...'
+      />
       <img className={s.icon} src={show} alt='search-icon' />
     </label>
   )
